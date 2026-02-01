@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- implementation de le barre de navigation -->
 
     <header>
-        <h1> Menu des delicieuses bouchées </h1>
+        <h1 id="anta"> Menu des delicieuses bouchées 
+
+        </h1>
 
         <nav>
-            <ul>
+            <ul id="zark">
             <li><a href="">Accueil</a></li>
             <li><a href="#apropos">A- Propos</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -24,18 +27,18 @@
         <!-- section a propos -->
 
 <section id="apropos">
-<h2> A Propos de Nous</h2>
-<p>Menu des Délicieuses Bouchées est un restaurant chaleureux où chaque plat est une invitation au plaisir et à la découverte. Nous vous proposons une sélection de mets savoureux, préparés avec des ingrédients frais et de qualité, alliant tradition et créativité. Que ce soit pour un déjeuner rapide, un dîner en famille ou un moment convivial entre amis, nos délicieuses bouchées raviront vos papilles à chaque visite. Ici, le goût, la générosité et la satisfaction du client sont au cœur de notre cuisine.</p>
+<h2 id="astou"> A Propos de Nous</h2>
+<p id="aq"><b>Menu des Délicieuses Bouchées</b> est un restaurant chaleureux où chaque plat est une invitation au plaisir et à la découverte. Nous vous proposons une sélection de mets savoureux, préparés avec des ingrédients frais et de qualité, alliant tradition et créativité. Que ce soit pour un déjeuner rapide, un dîner en famille ou un moment convivial entre amis, nos délicieuses bouchées raviront vos papilles à chaque visite. Ici, le goût, la générosité et la satisfaction du client sont au cœur de notre cuisine.</p>
     
 </section>
 <!-- section Menu -->
  <section id="Menu">
     <h2>Menu</h2>
 
-    <table>
+    <table id="AMY">
         <tr>
-            <th> Menu</th>
-            <th>Prix (en F cfa)</th>
+            <th id="menu"> Menu</th>
+            <th class="prix">Prix (en F cfa)</th>
         </tr>
 
         <tr>
@@ -46,36 +49,33 @@
         </tr>
 
         <tr>
-            <td>mafé</td>
+            <td>Mafé</td>
             <td>1500</td>
         </tr>
 
         <tr>
             
-            <td>domoda</td>
+            <td>Domoda</td>
             <td>1000</td>
         </tr>
     </table>
  </section>
  <!-- section contact -->
  <section id="contact">
+    <h2>Contact</h2>
 
-    <form action="">
+    <form id="AMY">
 
-        <label for="">Name</label>
-        <input type="text" name="first-name" placeholder="type your name here" />
-
- <label for="">Number</label>
-        <input type="number" name="number" value="23213456" />
-
-         <label for="">birth date</label>
-        <input type="date" name="birthday" />
-
-         <label for="">mail</label>
-        <input type="mail" name="email" value="">
-
+        <table>
+            <tr><td><label for="">Name</label></td><td><input type="text" name="first-name" placeholder="type your name here" /></td></tr>
+            <tr><td><label for="">Phone</label></td><td><input type="number" name="number" value="23213456" /></td></tr>
+            <tr><td><label for="">Date Birth</label></td><td><input type="date" name="birthday" /></td></tr>
+            <tr><td><label for="">Email</label></td><td><input type="mail" name="email" value=""></td></tr>
+        </table>
         
     </form>
+
+    
  </section>
 
 
